@@ -1,7 +1,7 @@
 import getRandomQuote from "@/lib/getRandomQuotes";
 import { NextResponse } from "next/server";
 
-export const GET = async () => {
+export async function GET(request: Request) {
   const results = await getRandomQuote();
   return NextResponse.json(results);
-};
+}
