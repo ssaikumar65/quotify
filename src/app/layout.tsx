@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunito.className}>
-        <main className="flex flex-col gap-8 items-center justify-center mx-auto p-12 bg-slate-900 min-h-screen text-slate-300">
+        <main className="flex flex-col items-center justify-around mx-auto p-12 bg-slate-900 min-h-screen text-slate-300">
           <span className=" text-5xl text-white font-bold">Quotify</span>
           {children}
         </main>
