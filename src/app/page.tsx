@@ -1,3 +1,4 @@
+"use client";
 import getRandomQuote from "@/lib/getRandomQuotes";
 import Quote from "@/components/Quote";
 
