@@ -2,7 +2,7 @@
 import { Quote } from "@/types";
 import { useRouter } from "next/navigation";
 
-export default function Quote(randomQuote: Quote) {
+export default async function Quote(randomQuote: Quote) {
   const router = useRouter();
 
   return (
