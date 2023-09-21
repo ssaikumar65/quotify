@@ -7,7 +7,6 @@ export default {
   out: "./drizzle",
   driver: "pg",
   dbCredentials: {
-    connectionString:
-      "postgres://postgres.qqcoxpozypdmxddkpkjg:Pushpalatha%40202@aws-0-ap-south-1.pooler.supabase.com:6543/postgres",
+    connectionString: process.env.NEXT_PUBLIC_DATABASE_URL as string,
   },
 } satisfies Config;
